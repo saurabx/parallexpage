@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(./air.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.p-2 {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(./Earth.jpg);
+}
+
+.p-3 {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(./fire.jpg);
+}
